@@ -1,0 +1,90 @@
+body{
+    background: #FFA8A8;
+}
+
+.face{
+    width: 280px;
+    height: 260px;
+    background: #fff;
+    border-radius: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    border: 3px solid black;
+}
+
+[class$="head"]{
+    width: 24px;
+    height: 50px;
+    border: 3px solid black;
+}
+
+
+.left_head{
+    background: #211EDE;
+    position: absolute;
+    left: 40%;
+    bottom: 97%;
+    transform:rotate(-33.1deg);
+}
+
+.right_head{
+    background: #EE1313;
+    position: absolute;
+    left: 53%;
+    bottom: 97%;
+    transform:rotate(30deg);
+
+}
+
+[class$="eyebrow"]{
+    background: black;
+    width: 58px;
+    height: 7px;
+    position: absolute;
+    top: 27%;
+}
+
+.left_eyebrow {
+    left: 33%;
+}
+
+.right_eyebrow{
+    left: 70%;
+}
+
+[class$="eye"]{
+    background:black;
+    width: 23px;
+    height: 23px;
+    border-radius: 120px;
+    position: absolute;
+    top: 40%;
+}
+
+.left_eye{
+    left: 42%;
+}
+
+.right_eye{
+    left: 70%;
+}
+
+.mouse{
+    background: #FFE604;
+    width: 110px;
+    height: 56px;
+    border-radius: 20px;
+    position: absolute;
+    top: 63%;
+    left: 40%;
+}
+
+.line{
+    background: black;
+    width: 110px;
+    height: 10px;
+    position: absolute;
+    top: 35%;
+}
